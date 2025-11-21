@@ -22,7 +22,7 @@ class _HeaderButtonState extends State<HeaderButton> {
         children: [
           if(!Responsive.isDesktop(context))
           Icon(widget.icon,size: 34,color: Colors.indigo,),
-          if(Responsive.isDesktop(context))
+          // if(Responsive.isDesktop(context))
           Text(widget.text,style: TextStyle(fontSize: 16,color: Colors.black),)
         ],
       ),

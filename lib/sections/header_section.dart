@@ -49,12 +49,12 @@ class HeaderSection extends StatelessWidget {
                   ontap: () {},
                 ),
                 HeaderButton(
-                  icon: Icons.cleaning_services,
+                  icon: Icons.design_services,
                   text: 'Services',
                   ontap: () {},
                 ),
                 HeaderButton(
-                  icon: Icons.work_outline_rounded,
+                  icon: Icons.image,
                   text: 'Portfolio',
                   ontap: () {},
                 ),

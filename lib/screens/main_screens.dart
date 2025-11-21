@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tutorial_responsive/sections/end_drawer_section.dart';
 import 'package:tutorial_responsive/sections/half_screen_section.dart';
 import 'package:tutorial_responsive/sections/header_section.dart';
 import 'package:tutorial_responsive/sections/list_with_fourth_screen.dart';
@@ -17,28 +18,7 @@ class _MainScreensState extends State<MainScreens> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      endDrawer: !Responsive.isDesktop(context)
-          ? Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                border: Border(
-                  left: BorderSide(color: Colors.black, width: .5),
-                ),
-              ),
-              width: getScreenWidth(context) * 2 / 3,
-              height: getScreenHeight(context),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextButton(onPressed: () {}, child: Text('Home')),
-                  TextButton(onPressed: () {}, child: Text('Services')),
-                  TextButton(onPressed: () {}, child: Text('Portfolio')),
-                  TextButton(onPressed: () {}, child: Text('About')),
-                  TextButton(onPressed: () {}, child: Text('Contact')),
-                ],
-              ),
-            )
-          : null,
+      endDrawer: !Responsive.isDesktop(context)?EndDrawerSection():null,
       body: Stack(
         alignment: Responsive.isDesktop(context)
             ? Alignment.topCenter
