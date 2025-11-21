@@ -17,7 +17,6 @@ class _MainScreensState extends State<MainScreens> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(actions: [SizedBox()],),
       endDrawer: !Responsive.isDesktop(context)
           ? Container(
               decoration: BoxDecoration(
@@ -32,10 +31,10 @@ class _MainScreensState extends State<MainScreens> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextButton(onPressed: () {}, child: Text('Home')),
-                  TextButton(onPressed: () {}, child: Text('Button1')),
-                  TextButton(onPressed: () {}, child: Text('Button2')),
-                  TextButton(onPressed: () {}, child: Text('Button3')),
-                  TextButton(onPressed: () {}, child: Text('Button4')),
+                  TextButton(onPressed: () {}, child: Text('Services')),
+                  TextButton(onPressed: () {}, child: Text('Portfolio')),
+                  TextButton(onPressed: () {}, child: Text('About')),
+                  TextButton(onPressed: () {}, child: Text('Contact')),
                 ],
               ),
             )
