@@ -10,7 +10,7 @@ class HeaderSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: getScreenWidth(context),
-      height: 80,
+      height: 70,
       padding: EdgeInsets.symmetric(horizontal: getPadding(context)),
       decoration: BoxDecoration(
         color: Colors.white,
