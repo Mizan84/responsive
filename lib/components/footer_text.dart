@@ -33,12 +33,11 @@ class _FooterTextState extends State<FooterText> {
             children: [
               Expanded(
                 child: Text(widget.text,style: TextStyle(
-                    fontSize: 16,fontFamily: 'Main',
-                    fontVariations: [FontVariation('wght', 400)],
-                    color:isHover?Colors.blue: Colors.black
+                    fontSize: 16,
+                    color:isHover?Colors.amber: Colors.white
                 ),),
               ),
-              Icon(Icons.arrow_forward_ios,size: 16,color:isHover? Colors.blue: Colors.black,)
+              Icon(Icons.arrow_forward_ios,size: 16,color:isHover? Colors.amber: Colors.white,)
             ],
           ),
         ),

@@ -22,6 +22,7 @@ class _MainScreensState extends State<MainScreens> {
       bodyContent: Column(
         spacing: 100,
         children: [
+          SizedBox(height: 50,),
           HalfScreenSection(),
           ThirdScreenSection(),
           ListWithThirdScreen(),

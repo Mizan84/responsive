@@ -24,18 +24,12 @@ class _CommonLayoutState extends State<CommonLayout> {
             : Alignment.bottomCenter,
         children: [
           SingleChildScrollView(
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                horizontal: getPadding(context),
-                vertical: 150,
-              ),
-              child:Column(
-                spacing: 100,
-                children: [
-                  widget.bodyContent,
-                  FooterSection(),
-                ],
-              ),
+            child: Column(
+              spacing: 100,
+              children: [
+                widget.bodyContent,
+                FooterSection(),
+              ],
             ),
           ),
           HeaderSection(),
