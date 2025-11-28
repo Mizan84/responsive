@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../screens/main_screens.dart';
 
-// GLOBAL THEME COLOR NOTIFIER
-
 void main() {
   runApp(const MyApp());
 }
