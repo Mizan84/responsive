@@ -17,19 +17,6 @@ class HalfScreenSection extends StatelessWidget {
           children: [
             SizedBox(
               width: getHalfWidth(context),
-              child: AspectRatio(
-                aspectRatio: 1.5,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(15),
-                  child: Image(
-                    image: AssetImage('assets/images/1.jpg'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(
-              width: getHalfWidth(context),
               child: Column(
                 spacing: 30,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -56,6 +43,20 @@ class HalfScreenSection extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              width: getHalfWidth(context),
+              child: AspectRatio(
+                aspectRatio: 1.5,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(15),
+                  child: Image(
+                    image: AssetImage('assets/images/1.jpg'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
