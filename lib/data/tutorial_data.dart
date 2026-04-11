@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_responsive/models/tutorial_model.dart';
+import '../models/tutorial_model.dart';
 
 class TutorialData {
   final tutorialData=<TutorialModel>[

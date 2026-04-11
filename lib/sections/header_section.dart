@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_responsive/components/header_button.dart';
+import '../components/header_button.dart';
 
 import '../util/responsive.dart';
 

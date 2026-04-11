@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tutorial_responsive/data/tutorial_data.dart';
-import 'package:tutorial_responsive/util/responsive.dart';
+import '../data/tutorial_data.dart';
+import '../util/responsive.dart';
 
 class ListWithThirdScreen extends StatelessWidget {
   const ListWithThirdScreen({super.key});

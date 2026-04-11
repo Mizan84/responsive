@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:tutorial_responsive/util/responsive.dart';
+import '../util/responsive.dart';
 
 class HalfScreenSection extends StatelessWidget {
   const HalfScreenSection({super.key});
